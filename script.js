@@ -51,7 +51,7 @@ const produtos = [
     nome: "Kit Burguer",
     descricao: "4 pães brioche, 4 carnes, 8 queijos, 100g bacon",
     preco: 65.0,
-    imagem: "./assets/kit-hamburguer.jpeg"
+    imagem: "./assets/kit-hamburguer.jpg"
   }
 ];
 
