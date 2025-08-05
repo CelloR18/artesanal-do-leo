@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Linguiças artesanais premium - Tradição & Qualidade desde 1994">
+  <title>Linguiça Artesanal do Léo | Premium</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="logo-leo.jpg" alt="Logo Linguiça Artesanal do Léo" class="logo"/>
+      <div class="header-text">
+        <h1>Linguiça Artesanal do Léo</h1>
+        <p class="slogan">Tradição & Qualidade desde 1994</p>
+      </div>
+    </div>
+    <div class="header-overlay"></div>
+  </header>
+
+  <section class="produtos-section">
+  <div class="produtos-header">
+    <h2>Nossos Produtos</h2>
+    <p class="produtos-descricao">Cada Produto é cuidadosamente preparado com cortes selecionados e temperos especiais, seguindo a tradição familiar desde 1994. Conheça nossos sabores exclusivos:</p>
+  </div>
+  
+  <div class="produtos" id="produtos">
+    <!-- Produtos serão inseridos dinamicamente via JS -->
+  </div>
+</section>
+  </main>
+
+  <!-- Carrinho Flutuante -->
+  <div class="cart-icon-container" id="cartIcon">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="cart-count" id="cartCount">0</span>
+  </div>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <aside class="carrinho-container" id="cartSidebar">
+    <button class="close-cart" id="closeCart">
+      <i class="fas fa-times"></i>
+    </button>
+    <h2><i class="fas fa-shopping-cart"></i> Meu Carrinho</h2>
+    <ul id="carrinho-itens"></ul>
+    <div class="total-container">
+      <strong>Total:</strong> <span id="total">0.00</span>
+    </div>
+
+    <div class="form-group">
+      <label for="entrega-retirada">Entrega ou retirada:</label>
+      <select id="entrega-retirada">
+        <option value="retirada">Retirada</option>
+        <option value="entrega">Entrega</option>
+      </select>
+    </div>
+
+   <div class="form-group endereco-group" id="enderecoGroup" style="display: none;">
+  <label for="rua">Rua:</label>
+  <input type="text" id="rua" placeholder="Nome da rua">
+  
+  <label for="numero">Número:</label>
+  <input type="text" id="numero" placeholder="Número da casa">
+  
+  <label for="bairro">Bairro:</label>
+  <input type="text" id="bairro" placeholder="Bairro">
+  
+  <label for="complemento">Complemento (opcional):</label>
+  <input type="text" id="complemento" placeholder="Apartamento, bloco, etc.">
+</div>
+
+    <div class="form-group">
+      <label for="forma-pagamento">Forma de pagamento:</label>
+      <select id="forma-pagamento">
+        <option value="Pix">Pix</option>
+        <option value="Cartão">Cartão</option>
+        <option value="Dinheiro">Dinheiro</option>
+      </select>
+    </div>
+
+    <button class="whatsapp-btn" onclick="enviarPedido()">
+      <i class="fab fa-whatsapp"></i> Enviar pedido via WhatsApp
+    </button>
+  </aside>
+<section class="contato-info">
+  <div class="contato-container">
+    <div class="contato-card">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>Endereço</h3>
+      <p>Rua das Linguiças Artesanais, 123</p>
+      <p>Bairro Sabor Tradicional</p>
+      <p>Cidade do Léo - SP</p>
+    </div>
+    
+    <div class="contato-card">
+      <i class="fas fa-clock"></i>
+      <h3>Horário de Funcionamento</h3>
+      <p>Terça a Sexta: 10h - 20h</p>
+      <p>Sábado: 9h - 22h</p>
+      <p>Domingo: 9h - 18h</p>
+      <p>Segunda: Fechado</p>
+    </div>
+    
+    <div class="contato-card">
+      <i class="fas fa-phone-alt"></i>
+      <h3>Contato</h3>
+      <p><a href="tel:+5511999999999">(11) 99999-9999</a></p>
+      <p><a href="mailto:contato@linguicadoleo.com.br">contato@linguicadoleo.com.br</a></p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+  <footer>
+    <p>Linguiça Artesanal do Léo &copy; 2024 - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
