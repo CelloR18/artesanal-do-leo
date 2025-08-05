@@ -3,55 +3,55 @@ const produtos = [
     nome: "Cupim Bovino",
     descricao: "Recheado com alho, bacon e calabresa",
     preco: 59.9,
-    imagem: "https://source.unsplash.com/featured/?barbecue"
+    imagem: "./assets/cupim-bovino.png"
   },
   {
     nome: "Lagarto Bovino Angus",
     descricao: "Com calabresa, cenoura e vagem",
     preco: 59.9,
-    imagem: "https://source.unsplash.com/featured/?meat"
+    imagem: "./assets/lagarto-angus.jpg"
   },
   {
     nome: "Filézinho Suíno",
     descricao: "Farofa cremosa agridoce",
     preco: 42.9,
-    imagem: "https://source.unsplash.com/featured/?pork"
+    imagem: "./assets/filezinho-suino.png"
   },
   {
     nome: "Copa Suína",
     descricao: "Com calabresa, bacon, cenoura e vagem",
     preco: 37.9,
-    imagem: "https://source.unsplash.com/featured/?sausage"
+    imagem: "./assets/copa-suina.jpg"
   },
   {
     nome: "Frango do Léo",
     descricao: "Purê de batata, calabresa e bacon",
     preco: 39.9,
-    imagem: "https://source.unsplash.com/featured/?chicken"
+    imagem: "./assets/frango.png"
   },
   {
     nome: "Costela Bovina",
     descricao: "Com farofa, cream cheese e calabresa",
     preco: 79.9,
-    imagem: "https://source.unsplash.com/featured/?beef"
+    imagem: "./assets/costela-bovina.jpeg"
   },
   {
     nome: "Panceta Suína",
     descricao: "Farofa, alho, cream cheese",
     preco: 46.9,
-    imagem: "https://source.unsplash.com/featured/?bacon"
+    imagem: "./assets/panceta.jpg"
   },
   {
     nome: "Peito de Frango",
     descricao: "Recheado com linguiça e cream cheese",
     preco: 49.9,
-    imagem: "https://source.unsplash.com/featured/?grilledchicken"
+    imagem: "./assets/peito-de-frango.jpg"
   },
   {
     nome: "Kit Burguer",
     descricao: "4 pães brioche, 4 carnes, 8 queijos, 100g bacon",
     preco: 65.0,
-    imagem: "https://source.unsplash.com/featured/?burger"
+    imagem: "./assets/kit-hamburguer.jpeg"
   }
 ];
 
